@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    text-align: center;
+    margin: 80px 52px 48px 52px ;
+}
+
+header .ouar-team {
+    color: #282828;
+}
+header h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    font-family: Inter;
+}
+header h3 {
+    text-align: center;
+    font-size: 13px;
+    font-family: Inter;
+}
+
+header .header-text {
+    text-align: center;
+    color: #5F6980;
+    font-size: 12px;
+    font-family: Inter;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+section .cards {
+    display: flex;
+    flex-direction: column;
+}
+section .card {
+    border: 1px solid #EAECF0;
+    margin-bottom: 32px;
+}
+section .info {
+   margin: 16px 16px 24px 16px;
+}
+section .name {
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 30px;
+    color: #282828;
+    margin-bottom: 4px;
+}
+section .job {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 22px;
+    color: #3E3E59;
+    margin-bottom: 8px;
+}
+section .text {
+    color: #5F6980;
+font-family: Inter;
+font-size: 14px;
+line-height: 22px;
+text-align: left;
+}
+section .social-icons {
+    margin: 0 16px;
+}
+.middle-icon {
+    margin: 0 16px;
+}
+footer {
+    background-color:  rgba(83, 83, 83, 0.33);
+    padding: 108px 77px 128px 57px;
+}
+footer p {
+    color: #535353;
+font-size: 14px;
+font-family: Inter;
+line-height: 16.94px;
+text-align: left;
+    margin: 32px 0 28px 0;
+}
+footer .footer-text  {
+    margin-bottom: 32px;
+}
+footer .Links {
+    font-family: Inter;
+    margin-bottom: 32px;
+}
+footer .Links h3 {
+    color: #1E1E1E;
+    font-size: 20px;
+    line-height: 24.2px;
+    margin-bottom: 71px;
+}
+footer .Links ul li {
+    color: #535353;
+    font-size: 14px;
+    line-height: 16.94px;
+    text-align: left;
+}
+footer .middle-link {
+    margin: 32px 0 32px 0;
+}
+footer .Services {
+    font-family: Inter;
+    margin-bottom: 32px;
+}
+footer .Services h3 {
+    color: #1E1E1E;
+    font-size: 20px;
+    line-height: 24.2px;
+    margin-bottom: 55px;
+}
+footer .Services ul li{
+    color: #535353;
+    font-size: 14px;
+    line-height: 16.94px;
+    text-align: left;
+}
+footer .middle-services {
+    margin: 32px 0 32px 0;
+}
+footer .Languages {
+    font-family: Inter;
+}
+footer .Languages h3 {
+    color: #1E1E1E;
+    font-size: 20px;
+    line-height: 24.2px;
+    margin-bottom: 58.45px;
+}
+footer .Languages .English {
+    width: 80px;
+    height: 45px;
+    background-color: #054A68;
+    padding: 14px 16px 14px 16px;
+}
+footer .Languages span {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16.94px;
+    text-align: center;
+}
